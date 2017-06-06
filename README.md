@@ -1,5 +1,5 @@
 # Pau Olive Rubio - Ice Crew's Designer  
-  
+  ![](http://imgur.com/a/z9S4q.png)
 Personal involvment into IceCrew's 'TLOZ:A Dream to the Past' tribute game.  
 
 - ## Entity System  
