@@ -1,6 +1,6 @@
 # Pau Olive Rubio - Ice Crew's Designer  
 
-  ![](http://imgur.com/HEWeeBQ.png)
+  ![](http://imgur.com/HEWeeBQ.png)  
 Personal involvment into IceCrew's 'TLOZ:A Dream to the Past' tribute game.  
 
 - ## Entity System  
@@ -10,30 +10,36 @@ Personal involvment into IceCrew's 'TLOZ:A Dream to the Past' tribute game.
     Enemies were one of the most complex entities to implement. They requiered a lot of design iteration, testing and balance.
     As the designer, I used the choosen designs to create the enemies you can see inside the game, this meant the creation of AIs for each one of them and different patterns to estimulate player's fun.  
     Also the Agahnim Boss enters in this category which was one of the toughest challenges.
+    ![Some Enemies From the Game](http://imgur.com/f3kuI8R.png)  
+          ![Agahnim Boss Charging an Attack](http://imgur.com/FEEJpcg.png)  
   - ### Item System  
     Items play a great role inside the game mechanics, player can buy them or pick it from the scenes to upgrade their stats or change in some way.
     Each one counts with a description an GUI appearences on the inventory.
+    ![Item of the acrtual Game and its description](http://imgur.com/YQtVRKH.png)  
       - Reward System   
         Basically, this is a simple reward system based on probabilities that change between enemies (rupees, hearts, potions, ...).
       - Weapon System (NOT IN THE FINAL GAME)
         This was meant to be in the game but had to be cut off due to time issues.  
         The weapon system, as it was when cut off, had two different weapons: Sword and Bow, which you could change between if you had them. they were droped as Items and were a way to upgrade the player outside the stats changes.
   - ### Doorway System  
-    Doorways are simple doors that open or close depending on the amount of enemies in the room. They are used to change between rooms (including animations).
+    Doorways are simple doors that open or close depending on the amount of enemies in the room. They are used to change between rooms (including animations).  
+    ![Blocked Doorway](http://imgur.com/PZtcZNp.png)  
 - ## File Acces System (w/ Pau Bonet)  
   Basically all file access done inside the game. I worked mostly on the save and load system.
 - ## Controller Support (w/ Pau Bonet)  
-  Designed all the controls and presets for the controller and implemented them.
+  Designed all the controls and presets for the controller and implemented them.  
+  ![](http://imgur.com/QFYRsN1.png)  
 - ## Player  
   - ### Movement / Attack
     Includes collisions and attacking interactions with enemies.
     Note: The 'Attack' included the cut off Weapon Support (T.T)
   - ### Dash  
-    The Dash mechanic was implemented aftersome tests. We saw some more action was needed so this acted as a way to avoid damage and to improves player skill sensation. 
-  
+    The Dash mechanic was implemented aftersome tests. We saw some more action was needed so this acted as a way to avoid damage and to improves player skill sensation.  
+    
+  ![Attack & Dash](http://imgur.com/zwA3dKy.png)  
 - ## Projectile / Particle System  
-  Projectiles and particles act in a similar way but projectiles actually interact with the player and the entities.  
-  
+  Projectiles and particles act in a similar way but projectiles actually interact with the player and the entities.    
+  ![](http://imgur.com/dY5W9jP.png)  
 - ## Scenes & Rooms System  
   Basically, improved Scenes (including the implementation of the 'Arena Mode') and a Room System that encapsulated logic to just the current room.  
   
@@ -51,4 +57,5 @@ Personal involvment into IceCrew's 'TLOZ:A Dream to the Past' tribute game.
 - ## Lead Designer (a.k.a 'The Friendly Dictator')
   As the Lead Designer I managed the team in order to have a lot of design to choose from. We went into design sprints as well as we were going for code sprints to ensure good design inside the game.  
   Needles to say, I acted as the main filter.  
-  Once in the production phase, I also was in charge to cut off those design that weren't posible to implement on time or resources.
+  Once in the production phase, I also was in charge to cut off those design that weren't posible to implement on time or resources.  
+  ![](http://imgur.com/C9VpwNM.png)
